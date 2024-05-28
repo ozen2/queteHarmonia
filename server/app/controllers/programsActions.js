@@ -37,6 +37,7 @@ const browse = (req, res) => {
   }
 };
 
+
 const read = (req, res) => {
   const parsedId = parseInt(req.params.id, 10);
 
